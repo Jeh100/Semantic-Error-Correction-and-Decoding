@@ -1,16 +1,47 @@
 # Semantic Reliability Decoding for Short Block Codes Transmission
 
-📋 Overview
+**Official PyTorch implementation of our IEEE TCOM paper:**
+
+> **Semantic Reliability Decoding for Short Block Codes Transmission**  
+> Jiafu Hao, Chentao Yue, Wanchun Liu, Branka Vucetic, Yonghui Li 
+> *IEEE Transactions on Communications* (Submitted)  
+> [arXiv:2604.22269](https://arxiv.org/pdf/2604.22269)
+
+---
+
+## 📋 Overview
+
 This repository contains the implementation of a novel semantic-enhanced receiver framework for transmitting natural language sentences over noisy wireless channels using multiple short block codes. Our approach leverages large language models (BART) to perform semantic error correction, achieving significant performance gains over conventional channel coding schemes.
-Key Features
 
-Semantic Error Correction (SEC): Reconstructs corrupted segments using language model context
-Semantic List Decoding (SLD): Generates multiple candidate reconstructions and selects the best one via weighted Hamming distance
-Semantic Confidence-guided HARQ (SHARQ): Eliminates CRC overhead using confidence-based error detection
+### Key Features
 
-Main Results
+- **Semantic Error Correction (SEC)**: Reconstructs corrupted segments using language model context
+- **Semantic List Decoding (SLD)**: Generates multiple candidate reconstructions and selects the best one via weighted Hamming distance
+- **Semantic Confidence-guided HARQ (SHARQ)**: Eliminates CRC overhead using confidence-based error detection
 
-~0.5 dB BLER gain with SEC over PPV-approaching short codes
-~1 dB BLER gain with SLD over baseline
-Up to 90% latency reduction compared to long LDPC codes while maintaining comparable BLER
-Near-perfect semantic fidelity (BLEU > 93, ROUGE-L > 97)
+
+
+---
+
+## 📝 Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{hao2025semantic,
+  title={Semantic Reliability Decoding for Short Block Codes Transmission},
+  author={Hao, Jiafu and Yue, Chentao and Liu, Wanchun and Li, Yonghui and Vucetic, Branka},
+  journal={IEEE Transactions on Communications},
+  year={2025},
+  note={Accepted}
+}
+```
+
+---
+---
+
+## ⚠️ Note
+
+**Code will be made public upon paper publication.** Stay tuned for updates!
+
+For early access or collaboration inquiries, please contact the authors.
