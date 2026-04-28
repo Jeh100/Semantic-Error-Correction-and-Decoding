@@ -1,8 +1,5 @@
 # Semantic Reliability Decoding for Short Block Codes Transmission
 
-**Official PyTorch implementation of our IEEE TCOM paper:**
-
-> **Semantic Reliability Decoding for Short Block Codes Transmission**  
 > Jiafu Hao, Chentao Yue, Wanchun Liu, Branka Vucetic, Yonghui Li 
 > *IEEE Transactions on Communications* (Submitted)  
 > [arXiv:2604.22269](https://arxiv.org/pdf/2604.22269)
@@ -28,12 +25,11 @@ This repository contains the implementation of a novel semantic-enhanced receive
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{hao2025semantic,
-  title={Semantic Reliability Decoding for Short Block Codes Transmission},
-  author={Hao, Jiafu and Yue, Chentao and Liu, Wanchun and Li, Yonghui and Vucetic, Branka},
-  journal={IEEE Transactions on Communications},
-  year={2025},
-  note={Accepted}
+@article{hao2026short,
+  title={Semantic Error Correction and Decoding for Short Block Codes},
+  author={Hao, Jiafu and Yue, Chentao and Liu, Wanchun and Vucetic, Branka and Li, Yonghui},
+  journal={arXiv preprint arXiv:2604.22269},
+  year={2026}
 }
 ```
 
